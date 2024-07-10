@@ -10,6 +10,10 @@ import HelloWorld from './components/HelloWorld.vue'
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap');
 
+body {
+  background-color: #fdfcf3;
+}
+
 #app {
   display: block;
   font-family: 'Alegreya', serif;
