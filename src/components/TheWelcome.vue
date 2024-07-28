@@ -21,7 +21,7 @@
 
     <img :src="divider" alt="divider" class="divider-image" />
 
-    <h3>All of the wedding celebrations will exclusively at take place at “Abgunste Manor”</h3>
+    <h3>All of the wedding celebrations will exclusively take place at “Abgunste Manor” in Latvia</h3>
 
     <img :src="abgunsteManor" alt="abgunste manor" class="picture" />
 
@@ -38,46 +38,122 @@
 
 
     <div>
+
+  <img :src="divider" alt="divider" class="divider-image" />
+
+    <h1>Itinerary</h1>
+    <p class="center-alligned">(will be updated as we get closer)</p>
+
+    <div style="margin-top: 40px">
+      <h2>Thursday 29. May 2025</h2>
+      <p style="display: inline;">
+          It is <h4 style="display: inline;">optional</h4> to arrive the night before the wedding
+        </p>
+        <h5 class="left-alligned">What to expect:</h5>
+
+      <p >
+        Join us for the wedding pre-party aka the night before the big day! There will be a Latvian
+        BBQ, drinks, we’ll probably rent a sauna and prepare some fun activities. This is an option
+        for casually settling in at the manor and meeting the other guests in a relaxed setting.
+      </p>
+      <h5 class="left-alligned">Start: 16:00</h5>
+      <h5 class="left-alligned">Where: Abgunste manor</h5>
+   
+      <h5 class="left-alligned">Important information:</h5>
+
+      <p class="text-margin-bottom">
+        Price is 1100 dkk/ 150 euro per person (includes snacks, BBQ, drinks, events, overnight stay
+        at the manor and breakfast morning friday 30.05.2025) Small children join for free.
+      </p>
+      <p class="text-margin-bottom">
+        If you are attending please transfer to Mobile pay number 31653242 or account 7670 4870494;
+        IBAN DK1976700004870494 ; BIC/SWIFT RINGDK22
+      </p>
+      <p>Latest 1. March 2025</p>
+      <h2 class="text-margin-bottom">Friday 30.May 2025</h2>
+
+      <h5 class="left-alligned">What to expect:</h5>
+      <p>The big day! We are celebrating our love and vow to each other.</p>
+      <h5 class="left-alligned">Morning: </h5>
+      <p>Breakfast</p>
+      <h5 class="left-alligned">After breakfast until 15:00:</h5>
+      <p class="text-margin-bottom">free time and getting ready for the wedding</p>
+      <h5 class="left-alligned">Start: 15.00 - wedding ceremony</h5>
+      <p class="text-margin-bottom">Followed by cake + reception</p>
+      <h5 class="left-alligned">Evening:</h5>
+      <p>dinner, cocktails + party!</p>
+      <h5 class="left-alligned">Where: Abgunste manor</h5>
+
+      <h5 class="left-alligned">Important information:</h5>
+      <p class="text-margin-bottom">
+        If you choose to arrive on friday 30.05.2025, Please be at the manor latest 13.00-14.00
+        since the ceremony starts at 15.00
+      </p>
+      <p class="text-margin-bottom">
+        Everything on this day is on the bride and groom and therefore free of charge (including all
+        food, drinks, accommodation + breakfast saturday 31.05.2025)
+      </p>
+
+      <h2 class="text-margin-bottom">Saturday 31.May 2025</h2>
+      <h5 class="left-alligned">Morning: </h5>
+      <p>Breakfast</p>
+      <p>Check out 11:00 - Thank you and auf Wiedersehen!</p>
+
+    <img :src="divider" alt="divider" class="divider-image" />
+    <h3>Questionere</h3>
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSfgXe1PbaDtstgmLXP4esXhHPIaemvnmWoRI_-twL_UW5f5_g/viewform?embedded=true"
+      width="100%"
+      height="450px"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      >Loading…</iframe
+    >
+
+
+    <img :src="divider" alt="divider" class="divider-image" />
+
+
+
       <h3>Why “Abgunste Manor”?</h3>
 
       <img :src="abgunsteBarn" alt="abgunste barn" class="picture" />
+      <p style="font-style: italic" class="center-alligned text-margin-bottom">Abgunste manor barn</p>
 
       <p class="left-alligned">
         Toms grandparents Andris and Aija live approximately 7 km from the manor, near the village
-        “Tervete”. They have lived at their house in the forest called “Skudras” (“Anthive”) for
+        “Tervete”. They have lived at their house in the forest called “Skudras” (“Ants”) for
         many years. Toms mainly grew up in Riga, but has spent many summers and weekends at his
         grandparents' place. To this day their house is where the Donis family will gather from near
         and far.
       </p>
 
       <img :src="skudrasBackyard" alt="skudras backyard" class="picture" />
-      <p style="font-style: italic">The garden at “Skudras”</p>
+      <p style="font-style: italic" class="center-alligned text-margin-bottom">The garden at “Skudras”</p>
       <p class="left-alligned">
         It’s also a place that has become special for Annemarie and Toms as a couple. We enjoy the
         nature and calm of being in the forest and reconnecting with Toms lativan roots. On one of
-        our trips to we discovered the venue “Abgunste Manor”, and kept it in mind for a future
+        our trips we discovered the venue “Abgunste Manor”, and kept it in mind for a future
         wedding.
       </p>
 
       <img :src="tomsTervete" alt="skudras backyard" class="picture" />
-      <p style="font-style: italic">
-        Toms on a hill in Tervete (
-        <a href="https://maps.app.goo.gl/ntYJEEpmGg3h8mBc7">See in Google Maps</a>)
-      </p>
-
-      <p class="left-alligned"></p>
-
+      <p style="font-style: italic" class="center-alligned text-margin-bottom"> Toms on a hill in Tervete (
+        <a href="https://maps.app.goo.gl/ntYJEEpmGg3h8mBc7">See in Google Maps</a>)</p>
+    
       <img :src="puteliLake" alt="puteli lake" class="picture" />
-      <p style="font-style: italic">
-        A nearby lake (
-        <a href="https://maps.app.goo.gl/gRKm3baVSMjSsy2o8">See in Google Maps</a>)
-      </p>
+     
+
+<p style="font-style: italic" class="center-alligned text-margin-bottom">A nearby lake (
+        <a href="https://maps.app.goo.gl/gRKm3baVSMjSsy2o8">See in Google Maps</a>)</p>
+
       <p class="left-alligned">
         Another reason is that we want to show you, some of what Latvia has to offer. The area
         around Abgunste is known to most Latvians for the attraction “Tervete Dabas Parks”, a nature
         park. The nature park also has a special connection to Toms family. Toms grandfather Andris
         has helped create the park and has worked on the woodcarving of various statues, signs and
-        buildings. The park has many ares with magical themes like a dwarf village or characters
+        buildings. The park has many areas with magical themes like a dwarf village or characters
         from folklore. There is also an impressive tower where you can see the forest. It’s fun for
         both kids and adults! Read more here:
         <a href="https://www.mammadaba.lv/en/mammadaba-nature-objects/tervetes-nature-park"
@@ -100,62 +176,7 @@
       </div>
     </div>
 
-    <img :src="divider" alt="divider" class="divider-image" />
-
-    <h1>Itinerary</h1>
-    <p>(will be updated as we get closer)</p>
-
-    <div style="margin-top: 40px">
-      <h2>Thursday 29. May 2025</h2>
-      <p style="display: inline;">
-          It is <h4 style="display: inline;">optional</h4> to arrive the night before the wedding
-        </p>
-        <h5>What to expect:</h5>
-
-      <p >
-        Join us for the wedding pre-party aka the night before the big day! There will be a Latvian
-        BBQ, drinks, we’ll probably rent a sauna and prepare some fun activities. This is an option
-        for casually settling in at the manor and meeting the other guests in a relaxed setting.
-      </p>
-      <h5>Start: 16:00</h5>
-      <h2>Where: Abgunste manor</h2>
-   
-      <h3>Important information:</h3>
-
-      <p class="text-margin-bottom">
-        Price is 1100 dkk/ 150 euro per person (includes snacks, BBQ, drinks, events, overnight stay
-        at the manor and breakfast morning friday 30.05.2025) Small children join for free.
-      </p>
-      <p class="text-margin-bottom">
-        If you are attending please transfer to Mobile pay number 31653242 or account 7670 4870494;
-        IBAN DK1976700004870494 ; BIC/SWIFT RINGDK22
-      </p>
-      <h4>Latest 1. March 2025</h4>
-      <h4 class="text-margin-bottom">Friday 30.May 2025</h4>
-
-      <h5>What to expect:</h5>
-      <p class="text-margin-bottom">The big day! We are celebrating our love and vow to each other.</p>
-      <p class="text-margin-bottom">Morning: Breakfast</p>
-      <p class="text-margin-bottom">After breakfast until 15:00: free time and getting ready for the wedding</p>
-      <h4>Start: 15.00 - wedding ceremony</h4>
-      <p class="text-margin-bottom">Followed by cake + reception</p>
-      <p class="text-margin-bottom">Evening: dinner, cocktails + party!</p>
-      <p>Where: Abgunste manor</p>
-      <a href="https://g.co/kgs/VHYuoJp">See Abgunste Manor in Google Maps</a>
-
-      <h3>Important information:</h3>
-      <p class="text-margin-bottom">
-        If you choose to arrive on friday 30.05.2025, Please be at the manor latest 13.00-14.00
-        since the ceremony starts at 15.00
-      </p>
-      <p class="text-margin-bottom">
-        Everything on this day is on the bride and groom and therefore free of charge (including all
-        food, drinks, accommodation + breakfast saturday 31.05.2025)
-      </p>
-
-      <p>Saturday 31.May 2025</p>
-      <p class="text-margin-bottom">Morning: Breakfast</p>
-      <p>Check out 11:00 - Thank you and auf Wiedersehen!</p>
+    
 
       <img :src="divider" alt="divider" class="divider-image" />
 
@@ -166,18 +187,21 @@
       >
         Link to Facebook group
       </a>
-      <p class="text-margin-bottom">(let us know if the link doesn’t work)</p>
+      <p class="text-margin-bottom center-alligned">(let us know if the link doesn’t work)</p>
       <h3 class="text-margin-bottom">Transport</h3>
       <p>
         The fastest way to get to Latvia and “Abgunste Manor” is by plane to Riga International
         Airport.
       </p>
       <p>
-        From Riga we recommend that you either: rent a car at the airport and drive (75 km, 1 hour)
-        or take a bus/taxi to the Riga Central Railway Station. From here you can take a train to
-        Jelgava Station (44 min). We can help with a pick up from Jelgava Station to “Abgunste
-        Manor” (27 km)
+        From Riga we recommend that you either: 
       </p>
+      <p>- rent a car at the airport and drive (75 km, 1 hour)
+        or</p>
+      <p>- take a bus/taxi to the Riga Central Railway Station. From here you can take a train to
+        Jelgava Station (44 min). We can help with a pick up from Jelgava Station to “Abgunste
+        Manor” (27 km)</p>
+
       <img :src="mapRigaAbgunste" alt="map" class="picture" />
 
       <p class="text-margin-bottom">
@@ -193,7 +217,7 @@
         The roads in the countryside can be bumpy and with a lot of holes. Some of the roads near
         the Manor are gravel.
       </p>
-      <h4 class="text-margin-bottom">Abgunste Manor</h4>
+      <h3 class="text-margin-bottom">Accommodation</h3>
       <p class="text-margin-bottom">
         Up to 90 guests can sleep at the manor. It is an old building with around 15 bedrooms of
         various sizes and different amounts of beds. Some rooms have a bathroom, others will have to
@@ -210,11 +234,11 @@
         we are in the countryside, far away from cities and there are no taxis available late at
         night, and we can not guarantee that someone can drive you to your hotel.
       </p>
-      <p>To get an idea of the layout, you can see it here:</p>
+      <p>To get an idea of the sleeping layout, you can see it here:</p>
       <a href="https://drive.google.com/file/d/1gH95EEJgi3eyEHojuFwWvrxZtRoXM4L_/view" target="_blank">Link to google drive</a>
 
 
-      <h4 class="text-margin-bottom">Good to know</h4>
+      <h3 class="text-margin-bottom">Good to know</h3>
       <p class="text-margin-bottom">Latvia is a country full of lakes and forests and a lot of space (compared to Denmark).</p>
       <p class="text-margin-bottom">
         The wedding will be held in the countryside, there are fields and forests around the Manor.
@@ -225,28 +249,18 @@
       <p class="text-margin-bottom">You can freely drink the tap water.</p>
     </div>
 
-    <img :src="divider" alt="divider" class="divider-image" />
-    <h3>Questionere</h3>
-    <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSfgXe1PbaDtstgmLXP4esXhHPIaemvnmWoRI_-twL_UW5f5_g/viewform?embedded=true"
-      width="100%"
-      height="450px"
-      frameborder="0"
-      marginheight="0"
-      marginwidth="0"
-      >Loading…</iframe
-    >
+
     <img :src="divider" alt="divider" class="divider-image" />
 
     <h2>Wish list</h2>
-    <p>
+    <p class="center-alligned">
       If you are considering giving us a gift, we would very much appreciate and be thankful for
       donations for our honeymoon to South Korea.
     </p>
 
     <img :src="seoulPoster" alt="seoul poster" class="seoul-poster-image" />
 
-    <p>
+    <p class="center-alligned">
       Mobile pay number 31653242 or account 7670 4870494; IBAN DK1976700004870494 ; BIC/SWIFT
       RINGDK22
     </p>
@@ -256,9 +270,8 @@
     <h2>Latvia Travel Guide</h2>
 
     <img :src="songAndDanceFestival" alt="Song and dance festival" class="picture" />
-    <p>
-      If you are considering giving us a gift, we would very much appreciate and be thankful for
-      donations for our honeymoon to South Korea.
+    <p class="center-alligned">
+     If you are considering extending your stay, (which we very much recommend!)  Here are some of our personal favorites. 
     </p>
 
     <img :src="riga" alt="riga" class="picture" />
@@ -267,7 +280,10 @@
     <div>
       <h5>To do:</h5>
       <ul>
-        <li>Walking tour</li>
+        <li>
+          Walking tour
+          <a href="https://freewalkingtour.com/riga/?campaignid=21359504141&adgroupid=&creative_id=&gad_source=1&gclid=Cj0KCQjw1qO0BhDwARIsANfnkv8at8cH7H4fIX58OkathbBTvJLK7Fmupcn-3i6z2tWug18XMLEIt1oaAjI7EALw_wcB" target="_blank">Link to walking tour</a>
+        </li>
         <li>
           Latvian ethnographical museum -
           <a href="https://goo.gl/maps/1HugV6rpV3s74DH36" target="_blank">See in Google Maps</a>
@@ -284,7 +300,6 @@
 
       <h5>To see:</h5>
       <ul>
-        <li>Walking tour</li>
         <li>
           Freedom monument -
           <a href="https://maps.app.goo.gl/iV8fcNCEQfAioK8R7" target="_blank">See in Google Maps</a>
@@ -399,7 +414,7 @@
 
       <img :src="divider" alt="divider" class="divider-image" />
 
-      <h2>Kind regards</h2>
+      <h2>Kind regards and we hope you see you at our wedding!</h2>
       <h2>Toms and Annemarie</h2>
       <img :src="tomsAnnemarieGoodbye" alt="Toms and Annemarie" class="picture" />
     </div>
@@ -504,10 +519,13 @@ p {
   color: #5a86cc;
   font-weight: 400;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 .left-alligned {
   text-align: left;
+}
+.center-alligned {
+    text-align: center;
 }
 ul {
   list-style-type: none;
